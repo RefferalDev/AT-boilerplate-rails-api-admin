@@ -12,7 +12,8 @@ Table of Contents
 
 Project Structure
 --------
-![structure](https://user-images.githubusercontent.com/16132307/27372120-af3210be-568d-11e7-936d-59a91e25062c.jpg)
+![asdasdasd](https://user-images.githubusercontent.com/16132307/27771960-dc9dded0-5f83-11e7-9957-1f1f52a43fab.jpg)
+
 #### Rule of this project:
 #### API
 -	**CONTROLLER** They end up as lean HTTP endpoints. No business logic is to be found in the controller, they instantly delegate to their respective operation.
@@ -53,8 +54,12 @@ List of Gems
 | virtus                       | Attributes on Steroids for Plain Old Ruby Objects.                                            |
 | active_model_serializers                   | ActiveModel::Serializer implementation and Rails hooks.                                    |
 | versionist                          | A plugin for versioning Rails based RESTful APIs..                           |
-| paranoia                         | ActiveRecord plugin allowing you to hide and restore records without actually deleting them..                                                |
+| paranoia                         | ActiveRecord plugin allowing you to hide and restore records without actually deleting them.                                                |
 | annotate                     | Annotate Rails classes with schema and routes info.                                                 |
+| activeadmin                     | The administration framework for Ruby on Rails applications.                                                 |
+| devise                     | Flexible authentication solution for Rails with Warden.                                                 |
+| slim                     | Slim Framework source code.                                                 |
+| bcrypt-ruby                     | bcrypt-ruby is a Ruby binding for the OpenBSD bcrypt() password hashing algorithm, allowing you to easily store a secure hash of your users' passwords.                                                 |
 | seed-fu                 | Advanced seed data handling for Rails, combining the best practices of several methods together.
 
 Getting Started
@@ -103,7 +108,10 @@ we can go ahead and create our databases locally:
 ```bash
 bundle exec rails db:create db:migrate db:seed_fu
 ```
-
+Create below command to create account test admin site
+```bash
+bundle exec rails db:seed
+```
 Running the Test Suite
 ---------------
 We are using `Rspec` for testing. To run the exisitng tests in command line type:
