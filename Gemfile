@@ -54,6 +54,7 @@ gem "paranoia", "~> 2.2"
 
 gem 'activeadmin', '1.0.0'
 gem 'devise', '4.3.0'
+gem 'formadmin', '0.2.1'
 gem "slim-rails", '3.1.2'
 gem "slim", '3.0.8'
 group :development, :test do
